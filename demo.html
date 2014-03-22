@@ -1,0 +1,60 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+	<link rel="stylesheet" type="text/css" href="style/fbplay.css"/>
+	<link rel="stylesheet" type="text/css" href="style/font-awesome/css/font-awesome.css"/>
+</head>
+<body>
+	<div class="fbplayer" node="fbplayer">
+		<div class="playbox" node="palybox">
+			<video class="playvideo">
+				 <source src="static/movie.ogg" type="video/ogg">
+			</video>
+		</div>
+		<div class="playctr" node="playctr">
+			<div class="loading" >
+				<div class="bounce1"></div>
+  				<div class="bounce2"></div>
+  				<div class="bounce3"></div>
+			</div>
+			<div class="centerpause"></div>
+			
+			<div class="tools">
+				<div class="tright">
+					<div class="btn btnsource">
+						<span node="source"><i class="icon-expand"></i></span>
+					</div>
+					<div class="btn btnsetting">
+						<span node="setting"><i class="icon-cog"></i></span>
+					</div>
+					<div class="btn btnfull">
+						<span node="state"><i class="icon-fullscreen"></i></span>
+					</div>
+				</div>
+
+				<div class="tleft">
+					<div class="btn btnstate">
+						<span node="state"><i class="icon-pause"></i></span>
+					</div>
+					<div class="btn btnsound">
+						<span node="state"><i class="icon-volume-up"></i></span>
+					</div>
+					<div class="drag sound">
+						<div class="progress" node="sound-progress">
+							<div class="time-line" node="sound-timeline"></div>
+						</div>
+					</div>
+					<div class="time"><span>22:34</span>/<span>34:23</span></div>	
+				</div>
+				<div>
+			</div>
+			<div class="progress">
+				<div class="time-line" node="video-timeline"></div>
+			</div>
+		</div>
+		<div class="playlist" node="playlist"></div>
+	</div>
+</body>
+<script src ="" type="javascript/text"></script>
+</html>
