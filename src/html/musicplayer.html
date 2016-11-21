@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <link rel="stylesheet" type="text/css" href="/src/style/music.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/style/font-awesome/css/font-awesome.css"/>
+</head>
+<body>
+<div class="musicplayer" node="musicplayer">
+    <div>
+        <div class="music_desc">
+            <img src="/src/img/music/music-card.jpg" class="music_card">
+        </div>
+        <div></div>
+    </div>
+    <div class="music_content">
+         <div class="progress_nav">
+             <span class="text pr5" node="currtime">30:00</span>
+             <div class="progress">
+                 <div class="buffer_line"></div>
+                 <div class="time_line" node="timeline"></div>
+             </div>
+             <span node='timeall' class="text pl5">30:00</span>
+         </div>
+         <div class="music_nav">
+             <div class="volume_nav">
+
+                 <div class="volumeprogress" style="height:10px;">
+                     <div class="time_line" node="volumetimeline"></div>
+                 </div>
+                 <div class="icon-volume-up volume-right">
+                     <i></i>
+                 </div>
+             </div>
+             <div>
+                 <div class="icon_item"><span class="icon icon-step-backward"></span></div>
+                 <div class="icon_item"><span class="icon icon-play"></span></div>
+                 <div class="icon_item"><span class="icon icon-step-forward"></span></div>
+             </div>
+             <div class="icon-cog">
+                 <span></span>
+             </div>
+         </div>
+    </div>
+    <audio id="audio">
+        <p>您的浏览器不支持HTML5播放器/</p>
+    </audio>
+</div>
+</body>
+
+<script src ="/dest/musicplayer.min.js" ></script>
+</html>
